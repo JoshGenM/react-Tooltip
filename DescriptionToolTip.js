@@ -5,7 +5,7 @@ import Tooltip from '@mui/material/Tooltip';
 
 export default function BasicTooltip() {
   return (
-    <Tooltip title="Delete">
+    <Tooltip arrow title="Delete icon">
       <IconButton>
         <DeleteIcon />
       </IconButton>
